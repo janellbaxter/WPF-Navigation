@@ -1,0 +1,17 @@
+﻿<Window x:Name="Frame" x:Class="WaterCreatures.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WaterCreatures"
+        mc:Ignorable="d"
+        Title="Water Creatures by Janell Baxter" Height="599" Width="597">
+    
+    <Grid>
+        <DockPanel>
+            <DockPanel>
+                <Frame x:Name="Navigation" NavigationUIVisibility="Hidden" />
+            </DockPanel>
+        </DockPanel>
+    </Grid>
+</Window>

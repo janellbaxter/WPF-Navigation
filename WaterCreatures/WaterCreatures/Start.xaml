@@ -1,0 +1,20 @@
+﻿<Page x:Class="WaterCreatures.Start"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WaterCreatures"
+      mc:Ignorable="d" 
+      d:DesignHeight="599" d:DesignWidth="597"
+      Title="Start" Background="White">
+   
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="title.png"/>
+        </Grid.Background>
+        <Button x:Name="Begin" Content="Dive In" HorizontalAlignment="Left" Margin="257,320,0,0" VerticalAlignment="Top" Width="75" Background="White" Foreground="#FF0C2B59" Click="Begin_Click" />
+        <Label x:Name="Welcome" Content="Welcome" HorizontalAlignment="Left" Margin="196,262,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PlayerNameInput" HorizontalAlignment="Left" Height="22" Margin="271,266,0,0" TextWrapping="Wrap" Text="Anonymous Player" VerticalAlignment="Top" Width="120" OpacityMask="Black" Background="Transparent" BorderBrush="Black"/>
+
+    </Grid>
+</Page>
